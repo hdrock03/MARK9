@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;900&display=swap");
+.App {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+body {
+  background-image: url("./Netflix.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+.cardimg {
+  height: 200px;
+  width: 350px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+  height: 350px;
+  width: 350px;
+  background-color: #020e07;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding: 5px;
+}
+h3 {
+  color: #3c07fa;
+  margin: 0 0 0 0;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 70px;
+  color: #f48c06;
+}
+.cardbtn {
+  padding: 6px;
+  border-radius: 10px;
+  background-color: #344cd8;
+  color: #db5740;
+  box-shadow: 1px 2px 3px rgb(82, 4, 4);
+}
+button {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+.but {
+  padding: 50px;
+}
+.option {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0c0a05;
+  color: #ca4220;
+  box-shadow: 1px 2px 3px rgb(165, 55, 55);
+  margin-left: 30px;
+}
+.option:hover{
+  background-color: #e9c13f;
+  transform: scale(1.5);
+  transition: all 0.3s linear;
+}
+h1 {
+  color: #fff;
+  font-size: 5rem;
+  
+}
+h1:hover{
+  transform: scale(1.1);
+  transition: all 0.2s linear;
+  color: #e4e73bb9;
+}
+
+input {
+  padding: 5px;
+  width: 40%;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: #faa307;
+}
